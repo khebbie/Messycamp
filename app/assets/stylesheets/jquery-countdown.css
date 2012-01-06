@@ -4,6 +4,7 @@
 	font: 40px/1.5 'Open Sans Condensed',sans-serif;
 	text-align:center;
 	letter-spacing:-3px;
+        display:block;
 }
 
 .position{

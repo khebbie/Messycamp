@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Messycamp</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+<title>Messycamp</title>
+<link href="/assets/home.css" media="screen" rel="stylesheet" type="text/css" />
+<%= stylesheet_link_tag    "application" %>
+<%= javascript_include_tag "application" %>
+<%= csrf_meta_tags %>
+<meta name="author" content="Klaus Hebsgaard" />
+<meta name="Copyright" content="Copyright (c) khebbie 2012" />
+
 </head>
 <body>
+<div id="container">
 
+<div id="hdr">
+<h1>Messycamp</h1>
+<p id="tagline">En familiecamping fyldt med hyggeligt rod</p>
+</div>
+
+<div id="lftcol">
+<ul id="nav">
+<li><a href="" id="current">Introduction</a></li>
+<li><a href="">Links</a></li>
+</ul>
+
+</div>
+
+<div id="rgtcol">
 <%= yield %>
+</div>
 
+<div id="bttmbar">Copyright &copy; khebbie 2012</div>
+</div>
 </body>
 </html>
