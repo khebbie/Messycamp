@@ -37,5 +37,9 @@ end
 group :production do
   # gems specifically for Heroku go here
   gem "pg"
+  gem 'execjs'
+
+  gem 'therubyracer'
+
 end
 
