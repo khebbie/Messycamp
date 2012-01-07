@@ -1,5 +1,5 @@
 $ ->
-  ts = new Date(2012, 6, 1)
+  ts = new Date(2012, 7, 1)
   $("#countdown").countdown
     timestamp: ts
     callback: (days, hours, minutes, seconds) ->
