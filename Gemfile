@@ -38,7 +38,7 @@ group :production do
   # gems specifically for Heroku go here
   gem "pg"
   gem 'execjs'
-
+  gem 'thin'
   gem 'therubyracer'
 
 end
