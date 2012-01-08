@@ -22,7 +22,12 @@ color:  #bd4483;
 h1:first-letter {font-family: Georgia, Georgia, serif; font-size: 2.25em} /* styles the first letter of the main title to make it large */
 p#tagline {position: absolute; right: 0px; top: 125px; font-style: italic; color: #648D20; font-size: 0.90em}  /* sits under main title */
 
-h2 {font-size: 1.30em; letter-spacing: 0.05em}
+h2 {
+font-size: 1.30em; 
+letter-spacing: 0.05em;
+color:  #bd4483;
+
+}
 
 p, ul, ol {margin: 10px 10px 0 7px; font-size: 0.70em; line-height: 1.60em; color: #000; letter-spacing: 0.05em}
 
