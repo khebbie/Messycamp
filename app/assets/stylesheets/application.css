@@ -43,7 +43,6 @@ ul {list-style: inside square} /* general lists */
 position: relative; 
 margin: 0 auto; 
 width: 820px;
-height: 600px; 
 background: 0 0 repeat-y #ddf1ce; /* Important image, do not remove */
 overflow: hidden
 }
