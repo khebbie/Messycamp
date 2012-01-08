@@ -1,7 +1,11 @@
 /* Grapes, web template for business or for fun */
 /* By Dave Reeder, www.davereederdesign.com */
 
-body {margin: 0; padding: 0; background: #213205}
+body {
+margin: 0; 
+padding: 0; 
+background:url("/assets/background.jpg")  center top;
+}
 
 * {margin: 0; padding: 0; border: 0; font-family:  Arial, Helvetica, sans-serif}
 
@@ -11,7 +15,10 @@ body {margin: 0; padding: 0; background: #213205}
 h1, h2, h3, h4 {font-family: Georgia, Georgia, serif; margin: 15px 0 0 5px; color: #fff; font-weight: normal; text-decoration: none}
 h1 em, h2 em, h3 em, h4 em {font-family: Georgia, Georgia, serif; font-weight: normal}  /* italic words in titles */
 
-h1 {position: absolute; right: 0px; top: 30px; font-size: 2.25em; letter-spacing: 0.1em; line-height: 1.00em; padding-right: 10px; border-right: 15px solid #fff}
+h1 {position: absolute; right: 0px; top: 30px; font-size: 2.25em; letter-spacing: 0.1em; line-height: 1.00em; padding-right: 10px; 
+border-right: 15px solid #d53085;
+color:  #bd4483;
+}
 h1:first-letter {font-family: Georgia, Georgia, serif; font-size: 2.25em} /* styles the first letter of the main title to make it large */
 
 p#tagline {position: absolute; right: 0px; top: 125px; font-style: italic; color: #648D20; font-size: 0.90em}  /* sits under main title */
@@ -36,8 +43,9 @@ ul {list-style: inside square} /* general lists */
 #container {  /* keeps everything together */
 position: relative; 
 margin: 0 auto; 
-width: 820px; 
-background: url(/assets/bkgrnd.gif) 0 0 repeat-y #CCCC33;  /* Important image, do not remove */
+width: 820px;
+height: 600px; 
+background: 0 0 repeat-y #ddf1ce; /* Important image, do not remove */
 overflow: hidden
 }
 
@@ -45,7 +53,7 @@ overflow: hidden
 float: left; 
 width: 820px; 
 height: 200px; 
-background: url(/assets/grapes.jpg) 0 0 no-repeat #CCCC33  /* Image of Grapes */
+background:  0 0 no-repeat #ddf1ce  /* Image of Grapes */
 }
 
 #lftcol {   /* left column */
@@ -60,7 +68,7 @@ overflow: hidden
 
 #rgtcol {float: right; width: 570px; padding-bottom: 30px; background: transparent; overflow: hidden}  /* right column */
 
-#bttmbar {float: right; text-align: center; font-size: 0.70em; height: 4em; line-height: 4em; width: 570px; background: #CCCC33; border-top: 1px solid #D9D93C}
+#bttmbar {float: right; text-align: center; font-size: 0.70em; height: 130 px; line-height: 4em; width: 570px; background: #ddf1ce;vertical-align: bottom; }
 
 
 /*---------------------------------------------Main Navigation-----------------------------------------------*/
@@ -77,19 +85,18 @@ ul#nav li a {
 width: 170px;
 margin: 3px 0 0 0;  /* a little top margin */
 border: 0;
-        border-left: 10px solid #CCCC33;
+        border-left: 10px solid #ddf1ce;
 padding: 10px 5px;
          font-family: Georgia, Georgia, serif;
          font-weight: normal;
          text-decoration: none;
 display: block;
 color: #450F1F;
-background: #D9D93C
-}
+background: #ddf1ce}
 
 ul#nav li a#current {border-color: #fff}   /* current page, move id in the xhtml when creating a new page */
 
-ul#nav li a:hover {background: #9EA219; color: #fff}
+ul#nav li a:hover {background: #ddf1ce; color: #fff}
 
 
 
