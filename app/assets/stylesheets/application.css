@@ -20,7 +20,6 @@ border-right: 15px solid #d53085;
 color:  #bd4483;
 }
 h1:first-letter {font-family: Georgia, Georgia, serif; font-size: 2.25em} /* styles the first letter of the main title to make it large */
-
 p#tagline {position: absolute; right: 0px; top: 125px; font-style: italic; color: #648D20; font-size: 0.90em}  /* sits under main title */
 
 h2 {font-size: 1.30em; letter-spacing: 0.05em}
@@ -29,7 +28,7 @@ p, ul, ol {margin: 10px 10px 0 7px; font-size: 0.70em; line-height: 1.60em; colo
 
 code {font-family: monospace; font-size: 1.20em; color: #E20000}
 
-p span {font-size: 1.50em; font-weight: bold} /* shouting words */
+p span {font-size: 2.50em; font-weight: bold} /* shouting words */
 
 a:link, a:visited {color: #792533; font-weight: bold; text-decoration: none; border-bottom: 1px solid #792533}
 a:hover, a:active {color: #fff; border-color: #fff}
@@ -63,12 +62,20 @@ top: 200px;
      margin-left: 50px;  /* leave this so that background image lines up with edge of this div */
 width: 200px; 
 background: transparent;
-overflow: hidden
+overflow: hidden;
+font-size: 1.20em;
 }
 
-#rgtcol {float: right; width: 570px; padding-bottom: 30px; background: transparent; overflow: hidden}  /* right column */
+#rgtcol {
+float: right; 
+width: 570px; 
+padding-bottom: 30px; 
+background: transparent; 
+overflow: hidden;
+font-size: 1.40em;
+}  /* right column */
 
-#bttmbar {float: right; text-align: center; font-size: 0.70em; height: 130 px; line-height: 4em; width: 570px; background: #ddf1ce;vertical-align: bottom; }
+#bttmbar {float: right; text-align: center; font-size: 0.70em; height: 130 px; line-height: 4em; width: 570px; background: #ddf1ce;}
 
 
 /*---------------------------------------------Main Navigation-----------------------------------------------*/
