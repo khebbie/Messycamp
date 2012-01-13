@@ -35,7 +35,7 @@ code {font-family: monospace; font-size: 1.20em; color: #E20000}
 
 p span {font-size: 2.50em; font-weight: bold} /* shouting words */
 
-a:link, a:visited {color: #e05488; font-weight: bold; text-decoration: none; border-bottom: 1px solid #e05488}
+a:link, a:visited {color: #e00054; font-weight: bold; text-decoration: none; border-bottom: 1px solid #e00054}
 a:hover, a:active {color: #fff; border-color: #fff}
 
 ul {list-style: inside square} /* general lists */
