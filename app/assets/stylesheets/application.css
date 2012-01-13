@@ -105,7 +105,7 @@ display: block;
 color: #450F1F;
 background: #d2dc81}
 
-ul#nav li a#current {border-color: #fff; volor: #e0125f}   /* current page, move id in the xhtml when creating a new page */
+ul#nav li a#current {border-color: #fff; color: #e0125f}   /* current page, move id in the xhtml when creating a new page */
 
 ul#nav li a:hover {background: #d2dc81; color: #fff}
 
