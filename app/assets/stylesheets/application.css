@@ -56,7 +56,7 @@ overflow: hidden
 float: left; 
 width: 820px; 
 height: 200px; 
-background: url(images/logo.png)  0 0 no-repeat #d2dc81  /* Image of Grapes */
+background: url(/assets/logo.png)  0 0 no-repeat #d2dc81  /* Image of Grapes */
 }
 
 #lftcol {   /* left column */
