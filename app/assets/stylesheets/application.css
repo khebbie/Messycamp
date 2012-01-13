@@ -16,7 +16,7 @@ h1, h2, h3, h4 {font-family: Georgia, Georgia, serif; margin: 15px 0 0 5px; colo
 h1 em, h2 em, h3 em, h4 em {font-family: Georgia, Georgia, serif; font-weight: normal}  /* italic words in titles */
 
 h1 {position: absolute; right: 0px; top: 30px; font-size: 2.25em; letter-spacing: 0.1em; line-height: 1.00em; padding-right: 10px; 
-border-right: 15px solid #d53085;
+border-right: 15px solid #e0125f;
 color:  #e0125f;
 }
 h1:first-letter {font-family: Georgia, Georgia, serif; font-size: 2.25em} /* styles the first letter of the main title to make it large */
@@ -48,7 +48,7 @@ ul {list-style: inside square} /* general lists */
 position: relative; 
 margin: 0 auto; 
 width: 820px;
-background: 0 0 repeat-y #ddf1ce; /* Important image, do not remove */
+background: 0 0 repeat-y #d2dc81; /* Important image, do not remove */
 overflow: hidden
 }
 
@@ -56,7 +56,7 @@ overflow: hidden
 float: left; 
 width: 820px; 
 height: 200px; 
-background:  0 0 no-repeat #ddf1ce  /* Image of Grapes */
+background:  0 0 no-repeat #d2dc81  /* Image of Grapes */
 }
 
 #lftcol {   /* left column */
@@ -79,7 +79,7 @@ overflow: hidden;
 font-size: 1.40em;
 }  /* right column */
 
-#bttmbar {float: right; text-align: center; font-size: 0.70em; height: 130 px; line-height: 4em; width: 570px; background: #ddf1ce;}
+#bttmbar {float: right; text-align: center; font-size: 0.70em; height: 130 px; line-height: 4em; width: 570px; background: #d2dc81;}
 
 
 /*---------------------------------------------Main Navigation-----------------------------------------------*/
@@ -96,18 +96,18 @@ ul#nav li a {
 width: 170px;
 margin: 3px 0 0 0;  /* a little top margin */
 border: 0;
-        border-left: 10px solid #ddf1ce;
+        border-left: 10px solid #d2dc81;
 padding: 10px 5px;
          font-family: Georgia, Georgia, serif;
          font-weight: normal;
          text-decoration: none;
 display: block;
 color: #450F1F;
-background: #ddf1ce}
+background: #d2dc81}
 
 ul#nav li a#current {border-color: #fff}   /* current page, move id in the xhtml when creating a new page */
 
-ul#nav li a:hover {background: #ddf1ce; color: #fff}
+ul#nav li a:hover {background: #d2dc81; color: #fff}
 
 
 
