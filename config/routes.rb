@@ -4,6 +4,11 @@ Messycamp::Application.routes.draw do
   match 'hjem/hvem' => 'home#who'
   match 'hjem/hvor' => 'home#where'
 
+  match 'hvad' => 'home#what'
+  match 'hvem' => 'home#who'
+  match 'hvor' => 'home#where'
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
