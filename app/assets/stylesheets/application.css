@@ -4,7 +4,6 @@
 body {
 margin: 0; 
 padding: 0; 
-background:url("/assets/background.jpg")  center top;
 }
 
 * {margin: 0; padding: 0; border: 0; font-family:  Arial, Helvetica, sans-serif}
@@ -35,7 +34,7 @@ code {font-family: monospace; font-size: 1.20em; color: #E20000}
 p span {font-size: 2.50em; font-weight: bold} /* shouting words */
 
 a:link, a:visited {color: #ef4600; font-weight: bold; text-decoration: none; border-bottom: 1px solid #e00054}
-a:hover, a:active {color: #fff; border-color: #fff}
+a:hover, a:active {color: #ef4600; border-color: #ef4600}
 
 ul {list-style: inside square} /* general lists */
 
@@ -47,7 +46,7 @@ ul {list-style: inside square} /* general lists */
 position: relative; 
 margin: 0 auto; 
 width: 820px;
-background: 0 0 repeat-y #d2dc81; /* Important image, do not remove */
+background:url("/assets/background.jpg")  center top;
 overflow: hidden
 }
 
@@ -77,7 +76,7 @@ overflow: hidden;
 font-size: 1.40em;
 }  /* right column */
 
-#bttmbar {float: right; text-align: center; font-size: 0.70em; height: 130 px; line-height: 4em; width: 570px; background: #d2dc81;}
+#bttmbar {float: right; text-align: center; font-size: 0.70em; height: 130 px; line-height: 4em; width: 570px; }
 
 
 /*---------------------------------------------Main Navigation-----------------------------------------------*/
@@ -101,11 +100,11 @@ padding: 10px 5px;
          text-decoration: none;
 display: block;
 color: #450F1F;
-background: #d2dc81}
+}
 
-ul#nav li a#current {border-color: #fff;}   /* current page, move id in the xhtml when creating a new page */
+ul#nav li a#current {border-color: #ef4600;}   /* current page, move id in the xhtml when creating a new page */
 
-ul#nav li a:hover {background: #d2dc81; color: #fff}
+ul#nav li a:hover { color: #ef4600}
 
 
 
