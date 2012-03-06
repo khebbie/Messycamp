@@ -12,20 +12,19 @@ background:url("/assets/background.jpg")  center top;
 
 /*----------------------------------------------Basic styles------------------------------------------------*/
 
-h1, h2, h3, h4 {font-family: Georgia, Georgia, serif; margin: 15px 0 0 5px; color: #fff; font-weight: normal; text-decoration: none}
+h1, h2, h3, h4 {font-family: Georgia, Georgia, serif; margin: 15px 0 0 5px; color: #ef4600; font-weight: normal; text-decoration: none}
 h1 em, h2 em, h3 em, h4 em {font-family: Georgia, Georgia, serif; font-weight: normal}  /* italic words in titles */
 
 h1 {position: absolute; right: 0px; top: 30px; font-size: 2.25em; letter-spacing: 0.1em; line-height: 1.00em; padding-right: 10px; 
-border-right: 15px solid #e0125f;
-color:  #e0125f;
+color:  #ef4600;
 }
 h1:first-letter {font-family: Georgia, Georgia, serif; font-size: 2.25em} /* styles the first letter of the main title to make it large */
-p#tagline {position: absolute; right: 0px; top: 125px; font-style: italic; color: #8aa14b; font-size: 0.90em}  /* sits under main title */
+p#tagline {position: absolute; right: 0px; top: 125px; font-style: italic; color: #ef4600; font-size: 0.90em}  /* sits under main title */
 
 h2 {
 font-size: 1.30em; 
 letter-spacing: 0.05em;
-color:  #e0125f;
+color:  #ef4600;
 
 }
 
@@ -35,7 +34,7 @@ code {font-family: monospace; font-size: 1.20em; color: #E20000}
 
 p span {font-size: 2.50em; font-weight: bold} /* shouting words */
 
-a:link, a:visited {color: #e00054; font-weight: bold; text-decoration: none; border-bottom: 1px solid #e00054}
+a:link, a:visited {color: #ef4600; font-weight: bold; text-decoration: none; border-bottom: 1px solid #e00054}
 a:hover, a:active {color: #fff; border-color: #fff}
 
 ul {list-style: inside square} /* general lists */
@@ -55,8 +54,7 @@ overflow: hidden
 #hdr {  /* div containing h1, nav and grapes image */
 float: left; 
 width: 820px; 
-height: 200px; 
-background: url(/assets/logo.png)  0 0 no-repeat #d2dc81  /* Image of Grapes */
+height: 250px;
 }
 
 #lftcol {   /* left column */
