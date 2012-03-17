@@ -11,8 +11,8 @@ padding: 0;
 
 /*----------------------------------------------Basic styles------------------------------------------------*/
 
-h1, h2, h3, h4 {font-family: Georgia, Georgia, serif; margin: 15px 0 0 5px; color: #ef4600; font-weight: normal; text-decoration: none}
-h1 em, h2 em, h3 em, h4 em {font-family: Georgia, Georgia, serif; font-weight: normal}  /* italic words in titles */
+h1, h2, h3, h4 {font-family: Changing, Arial; margin: 15px 0 0 5px; color: #ef4600; font-weight: normal; text-decoration: none}
+h1 em, h2 em, h3 em, h4 em {font-family: Changing, Arial; font-weight: normal}  /* italic words in titles */
 
 h1 {position: absolute; right: 0px; top: 30px; font-size: 2.25em; letter-spacing: 0.1em; line-height: 1.00em; padding-right: 10px; 
 color:  #ef4600;
@@ -29,11 +29,10 @@ color:  #ef4600;
 
 p, ul, ol {margin: 10px 10px 0 7px; font-size: 0.70em; line-height: 1.60em; color: #000; letter-spacing: 0.05em}
 
-code {font-family: monospace; font-size: 1.20em; color: #E20000}
 
 p span {font-size: 2.50em; font-weight: bold} /* shouting words */
 
-a:link, a:visited {color: #ef4600; font-weight: bold; text-decoration: none; border-bottom: 1px solid #e00054}
+a:link, a:visited {color: #ef4600; font-weight: bold; text-decoration: none; border-bottom: 1px solid #ef4600}
 a:hover, a:active {color: #ef4600; border-color: #ef4600}
 
 ul {list-style: inside square} /* general lists */
@@ -42,7 +41,7 @@ ul {list-style: inside square} /* general lists */
 
 /*-----------------------------------------------Layout DIVS------------------------------------------------*/
 
-#container {  /* keeps everything together */
+#container {  
 position: relative; 
 margin: 0 auto; 
 width: 820px;
@@ -50,17 +49,17 @@ background:url("/assets/background.jpg")  center top;
 overflow: hidden
 }
 
-#hdr {  /* div containing h1, nav and grapes image */
+#hdr {  
 float: left; 
 width: 820px; 
 height: 250px;
 }
 
-#lftcol {   /* left column */
+#lftcol {   
 position: absolute;
 left: 0px;
 top: 200px;
-     margin-left: 50px;  /* leave this so that background image lines up with edge of this div */
+     margin-left: 50px;  
 width: 200px; 
 background: transparent;
 overflow: hidden;
@@ -74,15 +73,15 @@ padding-bottom: 30px;
 background: transparent; 
 overflow: hidden;
 font-size: 1.40em;
-}  /* right column */
+}  
 
 #bttmbar {float: right; text-align: center; font-size: 0.70em; height: 130 px; line-height: 4em; width: 570px; }
 
 
 /*---------------------------------------------Main Navigation-----------------------------------------------*/
 
-ul#nav {   /* navigation list */
-margin: 53px 0 20px 0; /* the 53px is where the nav begins (margin top) */
+ul#nav {   
+margin: 53px 0 20px 0; 
 padding: 0;
          list-style: none inside
 }
@@ -91,18 +90,15 @@ ul#nav li {float: left;	display: block}
 
 ul#nav li a {
 width: 170px;
-margin: 3px 0 0 0;  /* a little top margin */
+margin: 3px 0 0 0;  
 border: 0;
-        border-left: 10px solid #d2dc81;
 padding: 10px 5px;
-         font-family: Georgia, Georgia, serif;
-         font-weight: normal;
-         text-decoration: none;
+font-family: Georgia, Georgia, serif;
+font-weight: normal;
+text-decoration: none;
 display: block;
-color: #450F1F;
 }
 
-ul#nav li a#current {border-color: #ef4600;}   /* current page, move id in the xhtml when creating a new page */
 
 ul#nav li a:hover { color: #ef4600}
 
