@@ -9,14 +9,27 @@
 <%= csrf_meta_tags %>
 <meta name="author" content="Klaus Hebsgaard" />
 <meta name="Copyright" content="Copyright (c) khebbie 2012" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29260646-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </head>
 <body>
 <div id="container">
 
 <div id="hdr">
-<a href = "/"><h1>Messycamp</h1></a>
-<p id="tagline">En familiecamping fyldt med plads til alle</p>
+<img src="/assets/bil.png"/>
+<a href = "/"><h1><img src="/assets/logo.png"/></h1></a>
 </div>
 
 <div id="lftcol">
@@ -27,6 +40,19 @@
 <li><a href="/hvor/">Hvor</a></li>
 
 </ul>
+<div>
+<a href="http://www.facebook.com/Messycamp" target="_blank">
+<img src="/assets/teen.png"/></a></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/da_DK/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-href="http://www.facebook.com/Messycamp" data-send="false" data-layout="box_count" data-width="50" data-show-faces="false" data-font="lucida grande"></div>
 
 </div>
 

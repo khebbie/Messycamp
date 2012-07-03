@@ -4,8 +4,28 @@
 <p>Messycamp er den tidligere familiecamping 1 som er genskabt med et nyt koncept.</p>
 <p>Vi holder bibeltimer efter et <a href="http://www.messychurch.dk" target="_blank">messychurch</a> ligende koncept, hvor alle aldersgrupper er sammen. Læs mere under <a href="/hvad/">Hvad</a></p>
 <p><a href="/assets/MessyCamp2012.pdf" target="_blank">Se program her</a></p>
+<p>
+<h2 id="countdown-title">Nedtælling til Messycamp</h2>
+</p>
+<div id="countdown">
+  <p class="dash days">
+    <span class="digits">117</span> 
+    <span class="title">days</span></p> 
+    <p class="dash"><span class="digits">19</span>
+      <span class="title">hours</span></p> 
+    <p class="dash"><span class="digits">50</span> 
+    <span class="title">minutes</span></p>
+</div>
+<script tyoe ="text/javascript">
+    $(document).ready(function() {
+    	$("#countdown").countdown({
+    		date: "july 1, 2012",
+    		offset: -19,
+    		leadingZero: true,
+    		htmlTemplate: "<p class=\"dash days\"><span class=\"digits\">%{d}</span> <span class=\"title\">dage</span></p> <p class=\"dash\"><span class=\"digits\">%{h}</span> <span class=\"title\">timer</span></p> "
+    	});
+    });
+</script>
+  
 
-<div>&nbsp;</div>
-<!--<div id="countdown"></div>
-<script src="assets/javascript/home.js"></script>-->
 
